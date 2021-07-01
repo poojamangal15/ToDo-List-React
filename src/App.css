@@ -1,38 +1,57 @@
-.App {
+.header{
+  height: 12.5rem;
+  width: 100%;
+  background-color : #E9EEF6;
+  padding-top: 3.125rem;
+}
+
+.card-container{
+  height: 18.75rem;
+  width: 18.75rem;
+  box-shadow: 0rem 0.188rem 3.125rem #A5A5A5;
+}
+
+.card-wrapper{
+  width: 16.875rem; 
+  height: 12.5rem; 
+  box-shadow: 0rem 0.125rem 1.875rem #A5A5A5;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+
+.card-top{
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder{
+  width: 100%;
+  height: 98%;
+  padding: 0.625rem 0.625rem;
+  display : flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-header{
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  max-width: auto;
+  height: 1.875rem;
+  padding: 0.063rem 0.063rem !important;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.task-container{
+  height: 37.5rem;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  background-color: #F6F7F8;
+  padding : 2.5rem 6.25rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons{
+  margin-left: 15px;
 }
