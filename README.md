@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-Project Demo: https://todo-list-pm.netlify.app/
+### [Live Website](https://todo-list-pm.netlify.app/):
+![image](https://user-images.githubusercontent.com/68249678/124348795-bf771180-dc09-11eb-8059-3a03c13ff2c0.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -70,5 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-![image](https://user-images.githubusercontent.com/68249678/124348795-bf771180-dc09-11eb-8059-3a03c13ff2c0.png)
 
